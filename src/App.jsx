@@ -1,12 +1,17 @@
 import { useState } from 'react'
-import './tailwind.css'; 
+import Header from './components/Header';
+import '../tailwind.css'
+import './main.css'; 
 
 function App() {
 
   return (
     <div>
-      App
+      <div>
+        <Header/>
+      </div>
     </div>
+      
   )
 }
 
